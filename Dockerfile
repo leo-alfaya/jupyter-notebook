@@ -7,3 +7,4 @@ RUN apk --no-cache add g++ \
         pip3 install --upgrade pip && \
         pip3 install jupyter
 
+CMD jupyter notebook --ip=0.0.0.0 --port=8080 --allow-root
