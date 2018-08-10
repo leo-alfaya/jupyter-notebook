@@ -1,0 +1,2 @@
+jupyter notebook --ip=0.0.0.0 --port=8080
+docker run -d -it --name jupyter-notebook -p 8080:8080 jupyter_notebook_image
